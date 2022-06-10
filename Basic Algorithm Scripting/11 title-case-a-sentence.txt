@@ -1,9 +1,0 @@
-function titleCase(str) {
-  let func = (word) =>  word.substring(0,1).toUpperCase() + word.substring(1).toLowerCase();
-  let newStr = str.replace(/([^\s]+)/g, func);
-
-  
-  return newStr;
-}
-
-titleCase("I'm a little tea pot");

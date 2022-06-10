@@ -1,9 +1,0 @@
-function reverseString(str) {  
-  let changeStr = [];
-  for (let i = 0; i < str.length; i++) {    
-    changeStr[i] = str[str.length - 1 - i];     
-  }  
-  return changeStr.join('');
-}
-
-reverseString("hello");
